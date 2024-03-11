@@ -84,6 +84,6 @@ Question: {question}
     
 
   # This function will receive a question and will answer in any language of your choice
-  def ask(self , question, language = "Arabic"):
+  def ask(self , question, language = "English"):
     return self.chain.invoke({'question':question , 'language':language}) # Usually best language will be english
 
