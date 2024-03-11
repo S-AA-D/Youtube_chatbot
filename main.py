@@ -4,4 +4,4 @@ chatbot = YoutubeChatBot(youtube_url="ENTER THE VIDEO URL HERE" ) # If this was 
 
 while True:
   question = input("Enter your question : ")
-  print(chatbot.ask(question))
+  print("Chatbot: "chatbot.ask(question))
