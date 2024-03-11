@@ -1,0 +1,8 @@
+langchain 
+langchain_core 
+chromadb 
+langchain_openai  
+tiktoken 
+openai-whisper 
+pytube 
+langchain_community
